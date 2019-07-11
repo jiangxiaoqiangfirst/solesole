@@ -1,0 +1,205 @@
+@charset "UTF-8";
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+#main .main-l {
+  width: 935px;
+  float: left; }
+  #main .main-l .main-title {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    color: #999; }
+    #main .main-l .main-title s {
+      float: right;
+      padding: 0 15px;
+      line-height: 35px;
+      border-right: 1px solid #f0f0f0; }
+      #main .main-l .main-title s i {
+        font-weight: 400;
+        color: #f60; }
+  #main .main-l .main-t-c {
+    height: 39px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    overflow: hidden; }
+    #main .main-l .main-t-c .matc-l {
+      padding-left: 10px;
+      margin-right: 10px;
+      background: #eee;
+      width: 85px;
+      color: #666;
+      line-height: 40px; }
+    #main .main-l .main-t-c .matc-c {
+      width: 757px;
+      height: 114px; }
+      #main .main-l .main-t-c .matc-c a {
+        float: left;
+        padding: 0 10px;
+        margin-right: 15px;
+        height: 40px;
+        line-height: 40px;
+        color: #333; }
+    #main .main-l .main-t-c .matc-r {
+      line-height: 40px; }
+      #main .main-l .main-t-c .matc-r a {
+        display: inline-block; }
+      #main .main-l .main-t-c .matc-r i {
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        background: url(../img/icon.png) no-repeat;
+        background-position: -472px 0; }
+  #main .main-l .main-t-c2 {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background: #eee;
+    color: #666; }
+    #main .main-l .main-t-c2 .c2 {
+      float: left;
+      border-right: 1px solid #ccc;
+      padding: 0 16px; }
+      #main .main-l .main-t-c2 .c2:nth-last-child(2) {
+        border-right: 0; }
+    #main .main-l .main-t-c2 .cont {
+      background: url(../img/icon.png) no-repeat;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-left: 5px;
+      background-position-y: 0; }
+    #main .main-l .main-t-c2 .mtc2-1 {
+      background: #266fb7;
+      color: #fff; }
+    #main .main-l .main-t-c2 .mtc2-2 .cont {
+      background-position-x: -572px; }
+    #main .main-l .main-t-c2 .mtc2-3 .cont {
+      background-position-x: -572px; }
+    #main .main-l .main-t-c2 .mtc2-4 {
+      width: 65px;
+      height: 40px;
+      position: relative; }
+      #main .main-l .main-t-c2 .mtc2-4 .mtc2-4t {
+        position: absolute;
+        left: 0;
+        width: 97px; }
+        #main .main-l .main-t-c2 .mtc2-4 .mtc2-4t span {
+          margin-left: 20px; }
+        #main .main-l .main-t-c2 .mtc2-4 .mtc2-4t .cont {
+          background-position: -472px 4px; }
+      #main .main-l .main-t-c2 .mtc2-4 .mtc2-4c {
+        display: none;
+        width: 210px;
+        padding: 10px;
+        position: absolute;
+        top: 41px;
+        left: -1px;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-top: 0;
+        z-index: 11; }
+    #main .main-l .main-t-c2 .mtc2-6 {
+      float: right; }
+      #main .main-l .main-t-c2 .mtc2-6 em {
+        color: #f60;
+        padding: 5px; }
+    #main .main-l .main-t-c2 .mtc2-7 {
+      float: right; }
+  #main .main-l .main-cont .cont-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #main .main-l .main-cont .cont-cont .main-cont-llo {
+      border: 1px solid #f0f0f0;
+      margin-top: 20px; }
+      #main .main-l .main-cont .cont-cont .main-cont-llo a img {
+        width: 220px;
+        height: 220px; }
+      #main .main-l .main-cont .cont-cont .main-cont-llo a .price {
+        height: 22px;
+        line-height: 22px;
+        color: #274487;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0 10px;
+        margin: 5px 0; }
+      #main .main-l .main-cont .cont-cont .main-cont-llo a .tip {
+        width: 194px;
+        height: 40px;
+        margin-left: 10px;
+        color: #555;
+        display: block;
+        line-height: 20px; }
+  #main .main-l .main-cont .cont-pagebottom {
+    margin-top: 20px; }
+    #main .main-l .main-cont .cont-pagebottom ul {
+      zoom: 1;
+      /*可以防止margin-top向上传递*/
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; }
+      #main .main-l .main-cont .cont-pagebottom ul:before {
+        content: "";
+        display: table; }
+      #main .main-l .main-cont .cont-pagebottom ul:after {
+        content: "";
+        display: block;
+        clear: both;
+        visibility: hidden; }
+      #main .main-l .main-cont .cont-pagebottom ul li {
+        float: left; }
+        #main .main-l .main-cont .cont-pagebottom ul li a {
+          display: block;
+          padding: 0 12px;
+          margin: 0 2px;
+          height: 30px;
+          line-height: 30px;
+          color: #555;
+          font-size: 14px;
+          border-radius: 2px;
+          border: 1px solid #dcdcdc; }
+        #main .main-l .main-cont .cont-pagebottom ul li a:hover {
+          background: #02a1cf;
+          border-color: #02a1cf;
+          color: #fff; }
+      #main .main-l .main-cont .cont-pagebottom ul li.active a {
+        background: #02a1cf;
+        border-color: #02a1cf;
+        color: #fff; }
+      #main .main-l .main-cont .cont-pagebottom ul li.disabled a {
+        background: #f0f0f0;
+        color: #444; }
+
+#main .main-r {
+  float: right;
+  margin-top: 40px; }
+  #main .main-r .hjzw img {
+    width: 245px;
+    height: 43px; }
+  #main .main-r .hjzw-cont {
+    width: 245px; }
+    #main .main-r .hjzw-cont .hjzw-cc {
+      margin-bottom: 20px; }
+      #main .main-r .hjzw-cont .hjzw-cc a {
+        border: 1px solid #f0f0f0; }
+        #main .main-r .hjzw-cont .hjzw-cc a img {
+          width: 243px;
+          height: 243px;
+          border-bottom: 1px solid #f0f0f0; }
+        #main .main-r .hjzw-cont .hjzw-cc a .tip {
+          height: 43px;
+          width: 225px;
+          padding: 8px 10px 0;
+          line-height: 20px;
+          font-size: 14px; }
+        #main .main-r .hjzw-cont .hjzw-cc a .price {
+          color: #f60;
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          font-size: 20px;
+          font-weight: 800;
+          margin: 0 10px 8px; }

@@ -1,0 +1,285 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto;
+}
+#main {
+  $borderColor: #f0f0f0;
+  .main-l {
+    width: 935px;
+    float: left;
+    .main-title {
+      height: 40px;
+      line-height: 40px;
+      margin-top: 20px;
+      color: #999;
+      s {
+        float: right;
+        padding: 0 15px;
+        line-height: 35px;
+        border-right: 1px solid $borderColor;
+        i {
+          // font-size:;
+          font-weight: 400;
+          color: #f60;
+        }
+      }
+    }
+    .main-t-c {
+      height: 39px;
+      border: 1px solid $borderColor;
+      display: flex;
+      overflow: hidden;
+      //   height: 114px;
+      //   justify-content: ;
+      .matc-l {
+        padding-left: 10px;
+        margin-right: 10px;
+        background: #eee;
+        width: 85px;
+        color: #666;
+        line-height: 40px;
+      }
+      .matc-c {
+        width: 757px;
+        height: 114px;
+        a {
+          float: left;
+          padding: 0 10px;
+          margin-right: 15px;
+          height: 40px;
+          line-height: 40px;
+          color: #333;
+        }
+      }
+      .matc-r {
+        //   width:
+        line-height: 40px;
+        a {
+          display: inline-block;
+        }
+        i {
+          display: inline-block;
+          width: 10px;
+          height: 6px;
+          background: url(../img/icon.png) no-repeat;
+          background-position: -472px 0;
+          // background-position: -490px 0;
+        }
+      }
+    }
+    .main-t-c2 {
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+      background: #eee;
+      color: #666;
+      .c2 {
+        float: left;
+        border-right: 1px solid #ccc;
+        padding: 0 16px;
+        //靠右布局，不推荐使用
+        &:nth-last-child(2) {
+          border-right: 0;
+        }
+      }
+      .cont {
+        background: url(../img/icon.png) no-repeat;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+        background-position-y: 0;
+      }
+      .mtc2-1 {
+        background: #266fb7;
+        color: #fff;
+      }
+      .mtc2-2 {
+        .cont {
+          background-position-x: -572px;
+          // background-position-x: -586px;
+        }
+      }
+      .mtc2-3 {
+        .cont {
+          background-position-x: -572px;
+          // background-position-x: -586px;
+        }
+      }
+      .mtc2-4 {
+        width: 65px;
+        height: 40px;
+        position: relative;
+        .mtc2-4t {
+          //   border-bottom: 1px solid #fff;
+          position: absolute;
+          left: 0;
+          width: 97px;
+          span {
+            margin-left: 20px;
+          }
+          .cont {
+            background-position: -472px 4px;
+          }
+        }
+        .mtc2-4c {
+          display: none;
+          width: 210px;
+          padding: 10px;
+          position: absolute;
+          top: 41px;
+          left: -1px;
+          background: #fff;
+          border: 1px solid #ccc;
+          border-top: 0;
+          z-index: 11;
+        }
+      }
+      .mtc2-6 {
+        float: right;
+        em {
+          color: #f60;
+          padding: 5px;
+        }
+      }
+      .mtc2-7 {
+        float: right;
+      }
+    }
+    //商品内容样式
+    .main-cont {
+      .cont-cont {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .main-cont-llo {
+          border: 1px solid $borderColor;
+          margin-top: 20px;
+          a {
+            img {
+              width: 220px;
+              height: 220px;
+            }
+            .price {
+              height: 22px;
+              line-height: 22px;
+              color: #274487;
+              font-size: 18px;
+              font-weight: bold;
+              padding: 0 10px;
+              margin: 5px 0;
+            }
+            .tip {
+              width: 194px;
+              height: 40px;
+              margin-left: 10px;
+              color: #555;
+              display: block;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .cont-pagebottom {
+        margin-top: 20px;
+        ul {
+          //浮动塌陷
+          zoom: 1;
+          &:before {
+            content: "";
+            display: table;
+          }
+          /*可以防止margin-top向上传递*/
+          &:after {
+            content: "";
+            display: block;
+            clear: both;
+            visibility: hidden;
+          }
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          li {
+            float: left;
+            a {
+              display: block;
+              padding: 0 12px;
+              margin: 0 2px;
+              height: 30px;
+              line-height: 30px;
+              color: #555;
+              font-size: 14px;
+              border-radius: 2px;
+              border: 1px solid #dcdcdc;
+            }
+            a:hover {
+              background: #02a1cf;
+              border-color: #02a1cf;
+              color: #fff;
+            }
+          }
+
+          li.active {
+            a {
+              background: #02a1cf;
+              border-color: #02a1cf;
+              color: #fff;
+            }
+          }
+          li.disabled {
+            a {
+              background: #f0f0f0;
+              color: #444;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-r {
+    float: right;
+    margin-top: 40px;
+    // background: red;
+    // height: 300px;
+    .hjzw {
+      img {
+        width: 245px;
+        height: 43px;
+      }
+    }
+    .hjzw-cont {
+      width: 245px;
+
+      .hjzw-cc {
+        margin-bottom: 20px;
+        a {
+          border: 1px solid $borderColor;
+
+          img {
+            width: 243px;
+            height: 243px;
+            border-bottom: 1px solid $borderColor;
+          }
+          .tip {
+            height: 43px;
+            width: 225px;
+            padding: 8px 10px 0;
+            line-height: 20px;
+            font-size: 14px;
+          }
+          .price {
+            color: #f60;
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 800;
+            margin: 0 10px 8px;
+          }
+        }
+      }
+    }
+  }
+}

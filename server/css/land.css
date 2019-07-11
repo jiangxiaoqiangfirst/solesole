@@ -1,0 +1,205 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+#header .logo {
+  margin-top: 30px;
+  float: left;
+  overflow: hidden;
+  width: 226px;
+  height: 42px;
+  background: url(../img/icon.png) no-repeat 0 -30px; }
+
+#header .land_register {
+  float: left;
+  padding-left: 10px;
+  width: 100px;
+  margin: 35px 0 0 20px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 21px;
+  border-left: 1px solid #f0f0f0; }
+
+#header .header-r {
+  margin-top: 35px;
+  height: 31px;
+  line-height: 31px;
+  float: right;
+  font-size: 16px; }
+  #header .header-r span {
+    color: #717171; }
+  #header .header-r .head-land-help {
+    font-size: 14px;
+    color: #717171; }
+  #header .header-r i {
+    color: #e60012;
+    font-size: 14px; }
+  #header .header-r a {
+    display: inline;
+    color: seagreen; }
+  #header .header-r a:hover {
+    color: #f60; }
+
+#main .margin .main-register {
+  margin: 80px 0 60px 280px; }
+  #main .margin .main-register .register-c .formss input.error {
+    border: 1px solid red; }
+  #main .margin .main-register .register-c .formss label.error {
+    padding-left: 16px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: #ea5200; }
+  #main .margin .main-register .register-c .formss .regist {
+    height: 40px;
+    margin: 0 0 30px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333; }
+    #main .margin .main-register .register-c .formss .regist span {
+      width: 100px;
+      display: inline-block; }
+    #main .margin .main-register .register-c .formss .regist input {
+      height: 38px;
+      width: 280px; }
+  #main .margin .main-register .register-c .tongyi {
+    margin: 0 0 0 100px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px; }
+    #main .margin .main-register .register-c .tongyi .checkbox {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    #main .margin .main-register .register-c .tongyi i {
+      display: inline-block;
+      width: 16px;
+      height: 12px; }
+    #main .margin .main-register .register-c .tongyi a {
+      display: inline; }
+  #main .margin .main-register .register-c .ok {
+    margin-top: 30px; }
+    #main .margin .main-register .register-c .ok .success {
+      height: 40px;
+      margin: 0 0 0 100px;
+      line-height: 40px;
+      font-size: 26px;
+      width: 280px;
+      border-radius: 5px;
+      background: #e60012;
+      color: #fff;
+      text-align: center; }
+
+#main .no-margin {
+  background: url(../img/land/201905131920530340.png) no-repeat;
+  height: 585px;
+  margin-top: 20px; }
+  #main .no-margin .main-register .register-c .land-l {
+    float: left;
+    width: 780px;
+    height: 585px; }
+  #main .no-margin .main-register .register-c .land {
+    background: papayawhip;
+    float: left;
+    margin: 20px 0 0;
+    width: 347px;
+    border-radius: 5px; }
+    #main .no-margin .main-register .register-c .land a {
+      display: inline; }
+    #main .no-margin .main-register .register-c .land .land-head {
+      position: relative;
+      padding: 10px 0 0 20px;
+      height: 70px; }
+      #main .no-margin .main-register .register-c .land .land-head span {
+        font-size: 24px;
+        color: #555;
+        height: 36px; }
+      #main .no-margin .main-register .register-c .land .land-head a {
+        font-size: 14px;
+        color: #07b0ff;
+        margin-left: 10px; }
+      #main .no-margin .main-register .register-c .land .land-head i {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70px;
+        height: 70px;
+        background: url(../img/land/ewmdl.png) no-repeat; }
+    #main .no-margin .main-register .register-c .land .land-cont {
+      padding: 15px 35px;
+      color: #333; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists input {
+        padding-left: 40px;
+        width: 227px;
+        height: 40px; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists input.bodyname {
+        background: #fff url(../img/land/user.png) no-repeat 10px 10px; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists input.telnum {
+        background: #fff url(../img/land/suo.png) no-repeat 10px 10px; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists span {
+        display: block;
+        text-align: right;
+        line-height: 26px; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists span.error {
+        color: red; }
+      #main .no-margin .main-register .register-c .land .land-cont .regists input.error {
+        border: 1px solid red;
+        color: red; }
+    #main .no-margin .main-register .register-c .land .landbtn .landbtn-a {
+      display: block;
+      width: 273px;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      background: #ff7300;
+      text-align: center;
+      font-size: 21px;
+      border-radius: 5px;
+      margin: 0 auto;
+      letter-spacing: 10px; }
+    #main .no-margin .main-register .register-c .land .other-land {
+      margin-top: 20px; }
+      #main .no-margin .main-register .register-c .land .other-land p {
+        height: 20px;
+        line-height: 20px;
+        color: #333;
+        margin-left: 35px; }
+      #main .no-margin .main-register .register-c .land .other-land ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 130px; }
+        #main .no-margin .main-register .register-c .land .other-land ul li {
+          float: left;
+          text-align: center;
+          padding: 0 10px; }
+          #main .no-margin .main-register .register-c .land .other-land ul li a {
+            display: block; }
+            #main .no-margin .main-register .register-c .land .other-land ul li a i {
+              display: block;
+              width: 50px;
+              height: 50px; }
+            #main .no-margin .main-register .register-c .land .other-land ul li a .i1 {
+              background: url(../img/land/sjdl.png) no-repeat; }
+            #main .no-margin .main-register .register-c .land .other-land ul li a .i2 {
+              background: url(../img/land/qqdl.png) no-repeat; }
+            #main .no-margin .main-register .register-c .land .other-land ul li a .i3 {
+              background: url(../img/land/wxdl.png) no-repeat; }
+
+#footer {
+  text-align: center; }
+  #footer .footer-t {
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px; }
+    #footer .footer-t a {
+      display: inline; }
+    #footer .footer-t span {
+      padding: 0 5px; }
+  #footer h3 {
+    height: 30px;
+    line-height: 30px; }
+  #footer p {
+    height: 30px;
+    line-height: 30px; }

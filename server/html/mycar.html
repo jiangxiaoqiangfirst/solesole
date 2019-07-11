@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../common/public.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/mycar.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <nav id="nav"></nav>
+    <main id="main">
+        <table class="mina-goods margin">
+            <thead class="thd">
+                <tr>
+                    <th>选择</th>
+                    <th>商品</th>
+                    <th>图片</th>
+                    <th>详情</th>
+                    <th>价格</th>
+                    <th>数量</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody class="tbod">
+                <tr>
+                    <td><input class="mycheck" type="checkbox"></td>
+                    <td>商品1</td>
+                    <td class="imgs"><img src="../img/timg.gif" data-src="../img/goods1/201704081139450201.jpg" alt="">
+                    </td>
+                    <td>asdkjflksjafdlj啊啊是肯德基发顺丰</td>
+                    <td>3200.00</td>
+                    <td class="ramss clear">
+                        <a class="reduce" href="##">-</a>
+                        <input type="text" value="1">
+                        <a class="add" href="##">+</a>
+                    </td>
+                    <td><span class="spa">删除</span></td>
+                </tr>
+                <tr class="all">
+                    <td>全选 <input type="checkbox" class="allcheck"></td>
+                    <td>总价</td>
+                    <td class="countsall" colspan="4"></td>
+                    <td><input class="maidan" type="button" value="去结算"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer id="footer"></footer>
+</body>
+<script src="../libs/require.2.3.6.js"></script>
+<script src="../libs/jquery2.2.4.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="../js/mycar.js"></script>
+
+</html>

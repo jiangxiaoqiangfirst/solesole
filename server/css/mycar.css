@@ -1,0 +1,53 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+#main table.mina-goods {
+  margin-top: 20px;
+  border-radius: 5px; }
+  #main table.mina-goods thead {
+    color: #a5988f;
+    font-size: 22px; }
+    #main table.mina-goods thead tr {
+      height: 50px; }
+      #main table.mina-goods thead tr th {
+        border: 1px solid #f0f0f0; }
+  #main table.mina-goods tbody tr {
+    border: 1px solid #f0f0f0;
+    text-align: center; }
+    #main table.mina-goods tbody tr td {
+      border: 1px solid #f0f0f0; }
+      #main table.mina-goods tbody tr td .spa {
+        display: block;
+        margin: 0 auto;
+        height: 20px;
+        width: 28px;
+        line-height: 20px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid #f0f0f0;
+        background: rgba(198, 204, 190, 0.8);
+        padding: 5px 5px; }
+    #main table.mina-goods tbody tr .imgs {
+      padding: 10px; }
+      #main table.mina-goods tbody tr .imgs img {
+        height: 60px; }
+    #main table.mina-goods tbody tr .ramss {
+      width: 171px;
+      padding: 0 10px; }
+      #main table.mina-goods tbody tr .ramss a {
+        float: left;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #f0f0f0; }
+      #main table.mina-goods tbody tr .ramss input {
+        float: left;
+        text-align: center;
+        border: 0;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        height: 20px; }
+  #main table.mina-goods tbody .all {
+    height: 40px; }
+    #main table.mina-goods tbody .all .countsall {
+      color: #f60; }
