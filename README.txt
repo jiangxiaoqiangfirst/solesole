@@ -1,7 +1,7 @@
 
 使用require.js模块化，框架使用jquery，模块文件放在在module文件夹中，jquery.js,requier.js放在libs文件夹
 
-一、文件夹万昌八,中有server文件夹,src文件夹,readme.txt文件
+一、文件夹有server文件夹,src文件夹,readme.txt文件
     1.1 server为服务器根目录，里面的index.html为主页面，地址为：http://localhost:8282/index.html，本地服务器环境下，端口号为8282，分页在html文件夹中，路径为http://localhost:8282/html/*.html;
         1.1.1 主页面上有楼层，三级菜单，二级菜单，banner图，登陆/注册，购物车有功能，简单的鼠标滑过动画，图片懒加载；
         1.1.2 主页面登陆/注册功能在页面最上面，banner图后面的没有写功能；
@@ -12,7 +12,7 @@
     1.2 src为编写源文件，使用gulp工具编写;
 
 二、路径
-    2.1 Github的路径为：
+    2.1 Github的路径为：git@github.com:jiangxiaoqiangfirst/solesole.git
     2.2 模块文件路径 server/module/
     2.3 scss的文件路径 src/sass/
     2.4 css路径 server/css
